@@ -1,8 +1,20 @@
 # Define a list named "nums" containing a series of integers.
-nums = [34, 1, 0, -23, 12, -88]
+nums = [12,-7,5,64,-14]
 
 print("Original numbers in the list: ", nums)
 
 new_nums = list(filter(lambda x: x > 0, nums))
 
 print("Positive numbers in the said list: ", new_nums)
+
+
+# Define a list named "nums" containing a series of integers.
+nums = [12,14,-95,3]
+
+print("Original numbers in the list: ", nums)
+
+new_nums = list(filter(lambda x: x > 0, nums))
+
+print("Positive numbers in the said list: ", new_nums)
+
+
